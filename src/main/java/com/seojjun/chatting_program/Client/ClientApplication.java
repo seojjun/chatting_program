@@ -1,4 +1,4 @@
-package com.seojjun.chatting_program;
+package com.seojjun.chatting_program.Client;
 
 import javafx.application.Application;
 import javafx.application.Platform;

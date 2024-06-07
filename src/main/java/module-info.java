@@ -3,6 +3,8 @@ module com.seojjun.chatting_program {
     requires javafx.fxml;
 
 
-    opens com.seojjun.chatting_program to javafx.fxml;
-    exports com.seojjun.chatting_program;
+    exports com.seojjun.chatting_program.Client;
+    opens com.seojjun.chatting_program.Client to javafx.fxml;
+    exports com.seojjun.chatting_program.Server;
+    opens com.seojjun.chatting_program.Server to javafx.fxml;
 }

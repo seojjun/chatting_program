@@ -1,5 +1,6 @@
-package com.seojjun.chatting_program;
+package com.seojjun.chatting_program.Server;
 
+import com.seojjun.chatting_program.Client.Client;
 import javafx.application.Application;
 import javafx.application.Platform;
 import javafx.geometry.Insets;

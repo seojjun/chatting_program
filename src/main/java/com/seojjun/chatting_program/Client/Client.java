@@ -1,4 +1,6 @@
-package com.seojjun.chatting_program;
+package com.seojjun.chatting_program.Client;
+
+import com.seojjun.chatting_program.Server.ServerApplication;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -8,7 +10,7 @@ import java.nio.charset.StandardCharsets;
 
 @SuppressWarnings("ALL")
 public class Client {
-    Socket socket;
+    public Socket socket;
 
     public Client(Socket socket) {
         this.socket = socket;
