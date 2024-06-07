@@ -1,10 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ClientApplication:jar" />
+      <artifact name="ServerApplication:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59034011-a1e7-4c08-906b-be5ea4dd6b04" name="변경" comment="" />
+    <list default="true" id="59034011-a1e7-4c08-906b-be5ea4dd6b04" name="변경" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ClientApplication_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/ClientApplication_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ServerApplication_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/ServerApplication_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ClientApplication_jar/ClientApplication.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ClientApplication_jar/javafx-base-17.0.6-win.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ClientApplication_jar/javafx-base-17.0.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ClientApplication_jar/javafx-controls-17.0.6-win.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ClientApplication_jar/javafx-controls-17.0.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ClientApplication_jar/javafx-fxml-17.0.6-win.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ClientApplication_jar/javafx-fxml-17.0.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ClientApplication_jar/javafx-graphics-17.0.6-win.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ClientApplication_jar/javafx-graphics-17.0.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ServerApplication_jar/ServerApplication.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ServerApplication_jar/javafx-base-17.0.6-win.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ServerApplication_jar/javafx-controls-17.0.6-win.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ServerApplication_jar/javafx-controls-17.0.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ServerApplication_jar/javafx-fxml-17.0.6-win.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ServerApplication_jar/javafx-fxml-17.0.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ServerApplication_jar/javafx-graphics-17.0.6-win.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ServerApplication_jar/javafx-graphics-17.0.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/seojjun/chatting_program/Client/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/seojjun/chatting_program/Client/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/seojjun/chatting_program/Server/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/seojjun/chatting_program/Server/META-INF/MANIFEST.MF" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +46,21 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;seojjun&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/seojjun/chatting_program.git&quot;,
+    &quot;accountId&quot;: &quot;4a884c91-2888-4715-83d7-004baedefbaf&quot;
+  }
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -37,8 +81,17 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JAR 애플리케이션.ClientApplication.jar (1).executor": "Run",
+    "JAR 애플리케이션.ClientApplication.jar.executor": "Run",
+    "JAR 애플리케이션.ServerApplication.jar.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/user/Documents/GitHub/chatting_program/src/main/java/com/seojjun/chatting_program/Server",
+    "project.structure.last.edited": "아티팩트",
+    "project.structure.proportion": "0.15429688",
+    "project.structure.side.proportion": "0.22988506",
     "애플리케이션.ClientApplication.executor": "Run",
     "애플리케이션.Main.executor": "Run",
     "애플리케이션.ServerApplication.executor": "Run"
@@ -48,6 +101,27 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\user\Documents\GitHub\chatting_program\src\application" />
     </key>
+  </component>
+  <component name="RunManager" selected="JAR 애플리케이션.ClientApplication.jar (1)">
+    <configuration name="ClientApplication.jar (1)" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/ClientApplication_jar/ClientApplication.jar" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ClientApplication.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/ClientApplication/ClientApplication.jar" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ServerApplication.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/ServerApplication_jar/ServerApplication.jar" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JAR 애플리케이션.ClientApplication.jar (1)" />
+        <item itemvalue="JAR 애플리케이션.ServerApplication.jar" />
+        <item itemvalue="JAR 애플리케이션.ClientApplication.jar" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
