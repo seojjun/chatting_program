@@ -10,7 +10,6 @@ import javafx.scene.layout.BorderPane;
 import javafx.scene.text.Font;
 import javafx.stage.Stage;
 
-import java.io.IOException;
 import java.net.InetSocketAddress;
 import java.net.ServerSocket;
 import java.net.Socket;
@@ -19,9 +18,10 @@ import java.util.Vector;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
+@SuppressWarnings("ALL")
 public class ServerApplication extends Application {
     public static ExecutorService threadPool;
-    public static Vector<Client> clients = new Vector<Client>();
+    public static Vector<Client> clients = new Vector<>();
 
     ServerSocket serverSocket;
 
@@ -38,22 +38,19 @@ public class ServerApplication extends Application {
             return;
         }
 
-        Runnable thread = new Runnable() {
-            @Override
-            public void run() {
-                while (true) {
-                    try {
-                        Socket socket = serverSocket.accept();
-                        clients.add(new Client(socket));
-                        System.out.println("[클라이언트 접속] "
-                                + socket.getRemoteSocketAddress()
-                                + ": " + Thread.currentThread().getName());
-                    } catch (Exception e) {
-                        if (!serverSocket.isClosed()) {
-                            stopServer();
-                        }
-                        break;
+        Runnable thread = () -> {
+            while (true) {
+                try {
+                    Socket socket = serverSocket.accept();
+                    clients.add(new Client(socket));
+                    System.out.println("[클라이언트 접속] "
+                            + socket.getRemoteSocketAddress()
+                            + ": " + Thread.currentThread().getName());
+                } catch (Exception e) {
+                    if (!serverSocket.isClosed()) {
+                        stopServer();
                     }
+                    break;
                 }
             }
         };
@@ -82,7 +79,7 @@ public class ServerApplication extends Application {
     }
 
     @Override
-    public void start(Stage primaryStage) throws IOException {
+    public void start(Stage primaryStage) {
         BorderPane root = new BorderPane();
         root.setPadding(new Insets(5));
 
@@ -125,6 +122,6 @@ public class ServerApplication extends Application {
     }
 
     public static void main(String[] args) {
-        launch();
+        launch(args);
     }
 }

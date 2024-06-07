@@ -39,7 +39,9 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "kotlin-language-version-configured": "true",
-    "애플리케이션.Main.executor": "Run"
+    "애플리케이션.ClientApplication.executor": "Run",
+    "애플리케이션.Main.executor": "Run",
+    "애플리케이션.ServerApplication.executor": "Run"
   }
 }]]></component>
   <component name="RecentsManager">
