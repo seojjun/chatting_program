@@ -11,28 +11,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59034011-a1e7-4c08-906b-be5ea4dd6b04" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ClientApplication_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/ClientApplication_jar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/ServerApplication_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/ServerApplication_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/ClientApplication_jar/ClientApplication.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ClientApplication_jar/javafx-base-17.0.6-win.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ClientApplication_jar/javafx-base-17.0.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ClientApplication_jar/javafx-controls-17.0.6-win.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ClientApplication_jar/javafx-controls-17.0.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ClientApplication_jar/javafx-fxml-17.0.6-win.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ClientApplication_jar/javafx-fxml-17.0.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ClientApplication_jar/javafx-graphics-17.0.6-win.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ClientApplication_jar/javafx-graphics-17.0.6.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/ServerApplication_jar/ServerApplication.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ServerApplication_jar/javafx-base-17.0.6-win.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ServerApplication_jar/javafx-controls-17.0.6-win.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ServerApplication_jar/javafx-controls-17.0.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ServerApplication_jar/javafx-fxml-17.0.6-win.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ServerApplication_jar/javafx-fxml-17.0.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ServerApplication_jar/javafx-graphics-17.0.6-win.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ServerApplication_jar/javafx-graphics-17.0.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/seojjun/chatting_program/Client/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/seojjun/chatting_program/Client/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/seojjun/chatting_program/Server/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/seojjun/chatting_program/Server/META-INF/MANIFEST.MF" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,8 +51,11 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 0
+  &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2hGAFBJjygK8CzZEai2t64buAM1" />
   <component name="ProjectLevelVcsManager">
@@ -79,47 +65,77 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JAR 애플리케이션.ClientApplication.jar (1).executor": "Run",
-    "JAR 애플리케이션.ClientApplication.jar.executor": "Run",
-    "JAR 애플리케이션.ServerApplication.jar.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/user/Documents/GitHub/chatting_program/src/main/java/com/seojjun/chatting_program/Server",
-    "project.structure.last.edited": "아티팩트",
-    "project.structure.proportion": "0.15429688",
-    "project.structure.side.proportion": "0.22988506",
-    "애플리케이션.ClientApplication.executor": "Run",
-    "애플리케이션.Main.executor": "Run",
-    "애플리케이션.ServerApplication.executor": "Run"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ClientApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ServerApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JAR 애플리케이션.ClientApplication.jar (1).executor&quot;: &quot;Run&quot;,
+    &quot;JAR 애플리케이션.ClientApplication.jar.executor&quot;: &quot;Run&quot;,
+    &quot;JAR 애플리케이션.ServerApplication.jar.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Documents/GitHub/chatting_program/out/artifacts/gson-2.11.0.jar&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;아티팩트&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15429688&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.22988506&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;,
+    &quot;애플리케이션.ClientApplication.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.Main.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.ServerApplication.executor&quot;: &quot;Run&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\user\Documents\GitHub\chatting_program\src\application" />
     </key>
   </component>
-  <component name="RunManager" selected="JAR 애플리케이션.ClientApplication.jar (1)">
-    <configuration name="ClientApplication.jar (1)" type="JarApplication" temporary="true">
-      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/ClientApplication_jar/ClientApplication.jar" />
-      <method v="2" />
+  <component name="RunManager" selected="JAR 애플리케이션.ClientApplication.jar">
+    <configuration name="ClientApplication" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.seojjun.chatting_program.Client.ClientApplication" />
+      <module name="chatting_program" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.seojjun.chatting_program.Client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerApplication" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.seojjun.chatting_program.Server.ServerApplication" />
+      <module name="chatting_program" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="ClientApplication.jar" type="JarApplication" temporary="true">
-      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/ClientApplication/ClientApplication.jar" />
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/ClientApplication_jar/ClientApplication.jar" />
       <method v="2" />
     </configuration>
     <configuration name="ServerApplication.jar" type="JarApplication" temporary="true">
       <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/ServerApplication_jar/ServerApplication.jar" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="JAR 애플리케이션.ClientApplication.jar" />
+      <item itemvalue="JAR 애플리케이션.ServerApplication.jar" />
+      <item itemvalue="애플리케이션.ServerApplication" />
+      <item itemvalue="애플리케이션.ClientApplication" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JAR 애플리케이션.ClientApplication.jar (1)" />
-        <item itemvalue="JAR 애플리케이션.ServerApplication.jar" />
         <item itemvalue="JAR 애플리케이션.ClientApplication.jar" />
+        <item itemvalue="JAR 애플리케이션.ServerApplication.jar" />
+        <item itemvalue="애플리케이션.ClientApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -133,5 +149,10 @@
       <updated>1717209935416</updated>
     </task>
     <servers />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ClientApplication_jar$ClientApplication.ic" NAME="ClientApplication 커버리지 결과" MODIFIED="1718167110130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.seojjun.chatting_program.Client.*</FILTER>
+    </SUITE>
   </component>
 </project>

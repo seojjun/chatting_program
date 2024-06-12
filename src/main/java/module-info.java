@@ -1,6 +1,7 @@
 module com.seojjun.chatting_program {
     requires javafx.controls;
     requires javafx.fxml;
+    requires com.google.gson;
 
 
     exports com.seojjun.chatting_program.Client;
